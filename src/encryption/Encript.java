@@ -6,8 +6,10 @@ public class Encript {
 	public static void main(String[] args) {
 		BasicTextEncryptor cryp = new BasicTextEncryptor();
 		
+		// Encryption password
 		cryp.setPassword("asd");
 		
+		//string que se va a encriptar
 		String card = "1234567890";
 		
 		String textEncrpyted = cryp.encrypt(card);
